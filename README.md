@@ -2,6 +2,8 @@
 
 Test Test OK?
 
+Today is Sunday 30th Apr.2017.
+
 
 importUIkit
 
