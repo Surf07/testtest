@@ -1,8 +1,29 @@
+using UnityEngine;
+using System.Collection;
+
+public class CubeController : MonoBehaviour {
+
+public float speed = 1f;
+
+void Start ( )  {
+}
+
+void Update ( ) {
+
+Vector3 move = new Vector3 (
+
+Input.GetAxis ("Horizontal"), 0, Input.GetAxis (" Vertical") )+
+transform.Translate ( move * Time.deltaTime * speed) ;
+
+}
+}
+}
+
+
+
 
 
 Test Test OK?
-
-Today is Sunday 30th Apr.2017.
 
 
 importUIkit
